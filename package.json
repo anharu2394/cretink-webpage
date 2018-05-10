@@ -1,0 +1,31 @@
+{
+  "name": "cretink-webpage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/anharu2394/cretink-webpage.git",
+  "author": "安藤春香 <haruan2394@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@hyperapp/router": "^0.7.0",
+    "bulma": "^0.7.1",
+    "bulma-start": "^0.0.2",
+    "hyperapp": "^1.2.5",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3"
+  }
+}
