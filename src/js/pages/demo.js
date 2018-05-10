@@ -1,6 +1,7 @@
 import {h} from "hyperapp"
 import {state,actions} from "./../index"
 import {ChoiceTag} from "./demos/choice"
+import {ResultIdea} from "./demos/result"
 
 const CretinkWebserviceDemo = () => (state,actions) => {
     if (state.step == 0){
@@ -10,7 +11,7 @@ const CretinkWebserviceDemo = () => (state,actions) => {
     }
     else if (state.step == 1){
         return (
-            <div>1</div>
+            <ResultIdea />
         )
     }
     else {
@@ -25,10 +26,10 @@ export const Demo = () => (state,actions) => (
             <div class="hero-body">
                 <div class="container">
                     <h1 class="title">
-                        Demo
+                        Cretink of WebServiceの完成イメージ
                     </h1>
                     <h2 class="subtitle">
-                        Cretink of Webserviceの完成イメージ
+                        人気になるWebサービスのアイデアを提案してくれます。
                     </h2>
                 </div>
             </div>

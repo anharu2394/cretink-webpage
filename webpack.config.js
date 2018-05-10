@@ -13,9 +13,12 @@ module.exports = {
         exclude: /node_modules/,
         loader: "babel-loader"
       },
-      {
-        test: /\.css$/,
-        loaders: ['style-loader', 'css-loader?modules'],
+       {
+        test: /\.css/,
+        use: [
+          'style-loader',
+          {loader: 'css-loader', options: {url: false}},
+        ],
       },
       {
         test: /\.scss/, // 対象となるファイルの拡張子
