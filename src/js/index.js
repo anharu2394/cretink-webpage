@@ -7,14 +7,17 @@ import { Content } from "./content"
 import './../style/index.scss'
 import './bulma_navbar.js'
 
-const state = {
-  location: location.state
+
+export const state = {
+    step:0,
+    selectedTag:"",
+    location: location.state
 }
 
-const actions = {
-  location: location.actions
+export const actions = {
+    step: value => (state) => ({step:value}),
+    location: location.actions
 }
-
 const view = (state, actions) => (
   <div >
     <Header />

@@ -1,6 +1,25 @@
 import {h} from "hyperapp"
+import {state,actions} from "./../index"
+import {ChoiceTag} from "./demos/choice"
 
-export const Demo =  () => (
+const CretinkWebserviceDemo = () => (state,actions) => {
+    if (state.step == 0){
+        return (
+            <ChoiceTag />
+        )
+    }
+    else if (state.step == 1){
+        return (
+            <div>1</div>
+        )
+    }
+    else {
+        return (
+            <div>non</div>
+        )
+    }
+}
+export const Demo = () => (state,actions) => (
     <div>
         <section class="hero">
             <div class="hero-body">
@@ -14,5 +33,6 @@ export const Demo =  () => (
                 </div>
             </div>
         </section>
+        <CretinkWebserviceDemo/>
     </div>
 )

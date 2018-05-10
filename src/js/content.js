@@ -17,10 +17,10 @@ export const About = () => (
         <Link class="button is-info is-large is-rounded" to="/demo">DEMOページへ！</Link>
     </div>
 )
-export const Content = () => (
+export const Content = () => (state,actions) => (
     <main class="content container">
         <Route path="/" render={Home} />
         <Route path="/about" render={About} />
-        <Route path="/demo" render={Demo} />
+        <Route path="/demo" render={() => <Demo />} />
     </main>
 )
