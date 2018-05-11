@@ -30,6 +30,7 @@ const ShowIdea = () => (state,actions) => {
         let third_idea = [Math.floor(Math.random() * choice_tags.length),Math.floor(Math.random() * choice_tags.length)]
         return (
             <div>
+            <h5>※これは完成イメージなので、ランダムにタグを表示しています。</h5>
                 <div class="card">
                     <header class="card-header">
                     <p class="card-header-title">
