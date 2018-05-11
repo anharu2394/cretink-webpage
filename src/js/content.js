@@ -8,10 +8,10 @@ export const Home = () => (
         <div class="hero-body">
             <div class="container">
             <h1 class="title">
-                Prim
+                Cretink
             </h1>
             <h2 class="subtitle">
-                Primary bold subtitle
+                Home
             </h2>
         </div>
         </div>
@@ -29,10 +29,10 @@ export const About = () => (
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Primary bold title
+            Cretink
           </h1>
           <h2 class="subtitle">
-            Primary bold subtitle
+            About
           </h2>
         </div>
       </div>
