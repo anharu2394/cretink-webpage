@@ -9,13 +9,8 @@ export const Header = () => (actions,state) =>  (
             <a class="navbar-item" href="/">
                 <h1 class="title">Cretink</h1>
             </a>
-     <div class="navbar-burger burger" data-target="navMenubd-example">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
           </div>
-     <div id="navMenubd-example" class="navbar-menu">
+     <div id="navMenubd-example" class="navbar-menu is-active">
             <div class="navbar-start">
                 <Link class="navbar-item"to="/">Home</Link>
                 <Link class="navbar-item" to="/about">About</Link>
