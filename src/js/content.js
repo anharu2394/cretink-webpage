@@ -37,8 +37,10 @@ export const About = () => (
         </div>
       </div>
     </section>
-    <p>準備中</p>
-    <Link class="button is-info is-large is-rounded" to="/demo">DEMOページへ！</Link>
+    <div class="container">
+        <p>準備中</p>
+        <Link class="button is-info is-large is-rounded" to="/demo">DEMOページへ！</Link>
+    </div>
     </div>
 )
 export const Content = () => (state,actions) => (
