@@ -9,7 +9,7 @@ export const Header = () => (
     <a class="navbar-item" href="/">
         <h1 class="title">Cretink</h1>
     </a>
-    <div class="navbar-burger burger" data-target="navMenu">
+    <div role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
       <span></span>
       <span></span>
       <span></span>

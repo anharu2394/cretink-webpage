@@ -26,6 +26,7 @@ export const actions = {
     loaded:() => (state) => ({is_loaded:true}),
     location: location.actions
 }
+
 const view = (state, actions) => (
   <div >
     <Header />
@@ -34,6 +35,6 @@ const view = (state, actions) => (
   </div>
 )
 
-const main = app(state, actions, (state, actions) => <Route render={() => view} />, document.body)
+const main = app(state, actions,view, document.body)
 
 const unsubscribe = location.subscribe(main.location)

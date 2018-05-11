@@ -34,6 +34,8 @@ export const Demo = () => (state,actions) => (
                 </div>
             </div>
         </section>
-        <CretinkWebserviceDemo/>
+        <div class="container">
+            <CretinkWebserviceDemo/>
+        </div>
     </div>
 )

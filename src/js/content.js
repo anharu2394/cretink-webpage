@@ -4,21 +4,45 @@ import {Demo} from "./pages/demo"
 
 export const Home = () => (
     <div>
-        <h1>Home</h1>
+        <section class="hero is-medium is-primary is-bold">
+        <div class="hero-body">
+            <div class="container">
+            <h1 class="title">
+                Prim
+            </h1>
+            <h2 class="subtitle">
+                Primary bold subtitle
+            </h2>
+        </div>
+        </div>
+        </section>
+        <div class="container">
         <p>準備中</p>
         <Link class="button is-info is-large is-rounded" to="/demo">DEMOページへ！</Link>
+        </div>
     </div>
 )
 
 export const About = () => (
     <div>
-        <h1>About</h1>
-        <p>準備中</p>
-        <Link class="button is-info is-large is-rounded" to="/demo">DEMOページへ！</Link>
+    <section class="hero is-medium is-primary is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Primary bold title
+          </h1>
+          <h2 class="subtitle">
+            Primary bold subtitle
+          </h2>
+        </div>
+      </div>
+    </section>
+    <p>準備中</p>
+    <Link class="button is-info is-large is-rounded" to="/demo">DEMOページへ！</Link>
     </div>
 )
 export const Content = () => (state,actions) => (
-    <main class="content container">
+    <main class="content">
         <Route path="/" render={Home} />
         <Route path="/about" render={About} />
         <Route path="/demo" render={() => <Demo />} />
