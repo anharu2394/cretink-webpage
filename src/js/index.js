@@ -24,6 +24,7 @@ export const actions = {
         actions.loaded()
     },
     loaded:() => (state) => ({is_loaded:true}),
+    to_active: () => {console.log("a")},
     location: location.actions
 }
 
