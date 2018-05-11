@@ -1,5 +1,4 @@
-window.addEventListener("load",function(){
-  // Get all "navbar-burger" elements
+// Get all "navbar-burger" element
   var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
   // Check if there are any nav burgers
@@ -21,4 +20,3 @@ window.addEventListener("load",function(){
     });
   }
 
-});
