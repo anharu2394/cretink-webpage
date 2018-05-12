@@ -6,7 +6,6 @@ import { Content } from "./content"
 
 import './../style/index.scss'
 import './../style/loading.css'
-import './bulma_navbar.js'
 
 
 export const state = {
