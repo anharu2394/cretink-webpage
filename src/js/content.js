@@ -8,7 +8,7 @@ export const Home = () => (
         <div class="hero-body">
             <div class="container has-text-centered">
             <h1 class="title">
-    Cretink of WebServiceはWebサービスのアイデアを提案してくれるAIです。
+    Cretink of WebServiceはWebサービスのアイデアを提案してくれるAIです
             </h1>
         </div>
         </div>
@@ -17,7 +17,7 @@ export const Home = () => (
         <div class="hero-body">
             <div class="container">
             <h2 class="title has-text-centered">
-                Cretink of WebServiceの完成イメージを作成しました。
+                Cretink of WebServiceの完成イメージを作成しました
             </h2>
             <div class="buttons has-addons is-centered">
                 <Link class="button is-info is-large is-rounded is-inverted" to="/demo">完成イメージへ！</Link>
@@ -30,21 +30,18 @@ export const Home = () => (
 
 export const About = () => (
     <div>
-    <section class="hero is-medium is-primary is-bold">
+    <section class="hero is-medium is-success">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Cretink
+             Cretink of WebServiceとは
           </h1>
-          <h2 class="subtitle">
-            About
-          </h2>
         </div>
       </div>
     </section>
     <div class="container">
         <p>準備中</p>
-        <Link class="button is-info is-large is-rounded" to="/demo">DEMOページへ！</Link>
+        <Link class="button is-info is-large is-rounded" to="/demo">完成イメージへ！</Link>
     </div>
     </div>
 )
