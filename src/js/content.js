@@ -4,7 +4,7 @@ import {Demo} from "./pages/demo"
 
 export const Home = () => (
     <div>
-        <section class="hero is-large is-primary ">
+        <section class="hero is-large is-primary is-bold">
         <div class="hero-body">
             <div class="container has-text-centered">
             <h1 class="title">
@@ -13,10 +13,10 @@ export const Home = () => (
         </div>
         </div>
         </section>
-        <section class="hero is-medium is-info">
+        <section class="hero is-medium is-info is-bold">
         <div class="hero-body">
             <div class="container">
-            <h2 class="subtitle has-text-centered">
+            <h2 class="title has-text-centered">
                 Cretink of WebServiceの完成イメージを作成しました。
             </h2>
             <div class="buttons has-addons is-centered">
