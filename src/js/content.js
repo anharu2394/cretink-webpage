@@ -25,10 +25,6 @@ export const Home = () => (
         </div>
         </div>
         </section>
-        <div class="container">
-        <p>準備中</p>
-        <Link class="button is-info is-large is-rounded" to="/demo">DEMOページへ！</Link>
-        </div>
     </div>
 )
 
