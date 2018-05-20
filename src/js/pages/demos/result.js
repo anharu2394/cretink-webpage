@@ -92,7 +92,7 @@ const ShowIdea = () => (state,actions) => {
                     </div>
                 </div>
                 <h2>結果をツイート</h2>
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-text={"【DEMO】Cretink of WebServiceを使って" + state.selectedTag + "のWebサービスのアイデアを提案してもらったよ #CretinkofWebService"}  data-lang="ja" data-url="http://cretink.tk" >Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-text={"【DEMO】Cretink of WebServiceを使って 「" + state.selectedTag + "」カテゴリのWebサービスのアイデアを提案してもらったよ #CretinkofWebService"}  data-lang="ja" data-url="http://cretink.tk" >Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         )
     }
